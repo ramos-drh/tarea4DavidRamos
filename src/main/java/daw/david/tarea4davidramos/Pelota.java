@@ -13,4 +13,17 @@ public class Pelota {
     private double peso;
     private String material;
     private String deporte;
+
+    public Pelota(double peso, String material, String deporte) {
+        this.peso = peso;
+        this.material = material;
+        this.deporte = deporte;
+    }
+    
+    public Pelota(){
+        peso = 200;
+        material = "tela";
+        deporte = "baloncesto";
+    }
+    
 }
